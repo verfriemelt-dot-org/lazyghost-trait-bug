@@ -1,0 +1,38 @@
+{
+    "name": "eosuptrade/fahrinfoserver",
+    "description": "Pure Awesome",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "doctrine/doctrine-bundle": "^2.11.3",
+        "doctrine/orm": "^3.0.1",
+        "symfony/asset": "^7.0.3",
+        "symfony/browser-kit": "^7.0.3",
+        "symfony/clock": "^7.0.3",
+        "symfony/console": "^7.0.3",
+        "symfony/dotenv": "^7.0.3",
+        "symfony/framework-bundle": "^7.0.3",
+        "symfony/runtime": "^7.0.3"
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-intl-grapheme": "*",
+        "symfony/polyfill-intl-icu":  "*",
+        "symfony/polyfill-intl-normalizer": "*",
+        "symfony/polyfill-mbstring":  "*",
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php80":  "*",
+        "symfony/polyfill-php81": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sample\\": "src"
+        }
+    },
+    "type": "project",
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": false
+        }
+    }
+}
